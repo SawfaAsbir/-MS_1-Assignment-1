@@ -28,6 +28,7 @@ body{
 }
 .download-resume{
     margin: 38px 150px 36px 0px;
+    cursor: pointer;
 }
 /* styles of hero section */
 #hero-section{
@@ -82,7 +83,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* text-align: center; */
+    margin-bottom: 90px;
 }
 .why-part-2{
     max-width: 946px;
@@ -154,6 +155,7 @@ body{
     height: 47px;
     padding: 12px 20px;
     margin: 20px 404px 0px 0px;
+    cursor: pointer;
 }
 
 /* styles of reason 2 */
@@ -198,6 +200,7 @@ body{
     height: 47px;
     padding: 12px 20px;
     margin: 20px 404px 0px 0px;
+    cursor: pointer;
 }
 
  /* styles of reason 3 */
@@ -244,11 +247,277 @@ body{
     height: 47px;
     padding: 12px 20px;
     margin: 32px 306px 10.5px 0px;
+    cursor: pointer;
 }
 .sub-class-3 img{
     max-width: 240px;
     height: 240px;
      
 }
+/* styles of my-inspiration */
+.my-inspiration{
+    max-width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.content-of-my-inspiration{
+    max-width: 852px;
+    height: 113px;
+    margin-bottom: 80px;
+    text-align: center;
+    
+}
+.content-of-my-inspiration h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.content-of-my-inspiration p{
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+.video{
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 151px;
+}
+.video iframe{
+    border-radius: 16px;
 
+}
+/* styles of my goal */
+.my-goal{
+    max-width: 1140px;
+    height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.heading h1{
+    max-width: 852px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.heading p{
+    max-width: 852px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+.card-section{
+    max-width: 1140px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 111px;
+}
+.content-of-card-1{
+    margin: 40px;
+}
+.content-of-card-2{
+    margin: 40px;
+}
+.content-of-card-3{
+    margin: 40px;
+}
 
+.card-1{
+    max-width: 364px;
+    height: auto;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;  
+}
+.content-of-card-1 p{
+    opacity: 0.6;
+}
+.content-of-card-1 a{
+    max-width: 284px;
+    height: 19px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+}
+.card-2{
+    max-width: 364px;
+    height: auto;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+.content-of-card-2 p{
+    opacity: 0.6;
+}
+.content-of-card-2 a{
+    max-width: 284px;
+    height: 19px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+}
+.card-3{
+    max-width: 364px;
+    height: auto;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
+.content-of-card-3 p{
+    opacity: 0.6;
+}
+.content-of-card-3 a{
+    max-width: 284px;
+    height: 19px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+}
+/* styles of my next target */
+/* .header-of-next-target{
+    margin-bottom: 48px;
+}
+.header-of-next-target h1{
+    max-width: 946;
+    height: auto;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.header-of-next-target p{
+    width: auto;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+.main-body-of-next-target{
+    display: flex;
+    flex-direction: column;
+} 
+.main-body-of-next-target .part-1{
+    display: flex;
+    
+}
+.main-body-of-next-target .part-1 img{
+    max-width: 94.78px;
+    height: 84.41px;
+    align-items: start;
+}
+.main-body-of-next-target .part-1 h2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    color: rgb(13, 19, 33);
+}
+.main-body-of-next-target .part-1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+} */
+
+/* styles of support section */
+.support-section .container{
+    padding: 64px 48px;   
+}
+.support-section{
+    background: linear-gradient(rgba(0,0,0,0.5)), url(/assets/handshake.jpg);
+    
+    background-position: center;
+    border-radius: 16px;
+    max-width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+}
+.support-section h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.support-section p{
+    margin: 0 auto;
+    max-width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.form{
+    margin: 24px 80px 0px 180px;
+}
+.form input{
+    width: 548px;
+    height: auto;
+    padding: 19px 20px;
+    border-radius: 8px;
+}
+.form button{
+    width: 120px;
+    height: auto;
+    padding: 17px 20px ;
+    border-radius: 8px;
+    margin-left: 16px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+/* styles of footer */
+.content-of-footer{
+    max-width: 1440px;
+    height: auto;
+    /* display: inline-block; */
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+    
+}
+.content-of-footer p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-left: 127px;
+    margin-right: 550px;
+
+}
+.img-1, .img-2, .img-3{
+    margin-right: 7.5px;
+    cursor: pointer;
+}
